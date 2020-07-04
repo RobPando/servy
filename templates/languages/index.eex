@@ -1,0 +1,6 @@
+<h1>Programming Languages</h1>
+<ul>
+<%= for language <- languages do %>
+  <li><%= language.name %> - <%= language.type %></li>
+<% end %>
+</ul>
